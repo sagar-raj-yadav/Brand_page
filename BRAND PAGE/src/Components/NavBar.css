@@ -1,0 +1,61 @@
+/* I often use the CSS universal selector to reset the dimensions in my HTML document: */
+
+* {
+  border: 0;
+  margin: 0; 
+  padding: 0; 
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid black;
+  border-bottom: 0;
+  height: 72px;
+  width:1280px;
+  margin:0 auto; /* left and right se margin=auto and top and bottom se margin=0 */
+}
+
+.brand_logo{
+  margin-top: 15px;
+  margin-right: 100px;
+}
+.menu{
+  height:24px;
+  width: 500px;
+  margin-top: 25px;
+}
+.menu1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu1 a{
+  color:black;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a:hover{
+  color:red;
+}
+ul {
+  list-style-type: none;  /*remove dot from unordered list */
+}
+
+a{
+  text-decoration: none;   /*remove underline from anchor tag*/
+}
+
+
+.nav-button{
+  background-color: #D01C28;
+  color:white;
+  font-weight:  500;
+  height:32px;
+  width:75px;
+  margin-top:21px;
+  padding: 6px 16px;
+}
+
+.nav-button:hover{
+  cursor: pointer;
+}
